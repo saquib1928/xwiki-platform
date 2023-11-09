@@ -1737,10 +1737,15 @@
     </profile>
   </profiles>
   <distributionManagement>
-    <repository>
-      <id>nexus.xwiki.org</id>
-      <name>XWiki Maven Remote Repository for Releases</name>
-      <url>https://nexus.xwiki.org/nexus/content/repositories/releases/</url>
-    </repository>
-  </distributionManagement>
+		<repository>
+		  <id>central</id>
+		  <name>a0n5tucjjiuir-artifactory-primary-0-releases</name>
+		  <url>https://ibt.jfrog.io/artifactory/ibt-libs-release</url>
+		</repository>
+		<snapshotRepository>
+		  <id>snapshots</id>
+		  <name>a0n5tucjjiuir-artifactory-primary-0-snapshots</name>
+		  <url>https://ibt.jfrog.io/artifactory/ibt-libs-snapshot</url>
+		</snapshotRepository>
+	  </distributionManagement>
 </project>
