@@ -1736,7 +1736,8 @@
       </repositories>
     </profile>
   </profiles>
-  <distributionManagement>
+ <repository>
+		<distributionManagement>
 		<repository>
 		  <id>central</id>
 		  <name>a0n5tucjjiuir-artifactory-primary-0-releases</name>
